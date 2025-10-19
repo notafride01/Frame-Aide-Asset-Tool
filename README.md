@@ -11,22 +11,25 @@ So this is a way to allow Unity developers who want an overhead function that do
 
 ### **How to get?**
 > 
-You can go to the Unity Asset Store and download it from my store page to get access to it
+You can go to the Unity Asset Store and download it from my store page to get access to it, https://assetstore.unity.com/packages/tools/animation/frame-aide-330455#publisher
 
 ### **Functionalities**
 > 
 There are 5 different function calls that can be used when the FrameAide.cs is attached to a gameobject with an animator component.
 
-**PlayAtFrame (string animName, int frameIndex)** - Plays an animation at a specific frame
+`PlayAtFrame (string animName, int frameIndex)` - Plays an animation at a specific frame
 
-**GetCurrentFrame (Animator animator)** - When given a valid animator, it returns the current frame of the animation it's playing
+`GetCurrentFrame (Animator animator)` - When given a valid animator, it returns the current frame of the animation it's playing
 
-**GetTotalFrames (string animName, int frameIndex)** - Plays an animation at a specific frame
+`GetTotalFrames (string animName, int frameIndex)` - Plays an animation at a specific frame
 
-**GetTotalFrames(string animName)** - When given an animation name, it will return the total number of frames that animation has
+`GetTotalFrames(string animName)` - When given an animation name, it will return the total number of frames that animation has
 
-**GetCurrentClipName (Animator animator)** - return the clip name the animator is currently playing
+`GetCurrentClipName (Animator animator)` - return the clip name the animator is currently playing
 
+### **Feedback**
+
+If you have any issues with the tool or enjoy the tool feel free to share your feedback. Your input will help improve and polish the tool overtime!
 
 
 

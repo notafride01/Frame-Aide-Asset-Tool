@@ -267,6 +267,7 @@ namespace notafridge.FrameAid
             {
                 isRunning = true;
                 animator.PlayInFixedTime(animationName, 0, referenceKeyFrameFirst.timeReference);
+                animator.Update(0f);
 
                 while (isRunning && animName == animationName)
                 {
@@ -350,6 +351,7 @@ namespace notafridge.FrameAid
             if (keyFound)
             {
                 animator.PlayInFixedTime(animName, 0, referenceKeyFrame.timeReference);
+                animator.Update(0f);
             }
         }
 

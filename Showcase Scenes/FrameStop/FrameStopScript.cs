@@ -34,7 +34,6 @@ namespace notafridge.FrameAid
         {
             animator = GetComponent<Animator>();
             FrameAidScript = GetComponent<FrameAideTool>();
-            //Time.timeScale = 0.25f;
         }
 
         void Update()
@@ -62,7 +61,6 @@ namespace notafridge.FrameAid
 
             yield return new WaitForSeconds(5f);
             loopStarted = false;
-
         }
     }
 }

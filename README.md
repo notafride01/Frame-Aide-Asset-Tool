@@ -1,3 +1,5 @@
+![Logo](Frame_Aide_SocialMedia.png)
+
 # What is FrameAide?
 
 Frame Aide is a tool that allows developers to get the frame data of an animation. Allowing the developers to get the current frame and play an animation at a specific frame.

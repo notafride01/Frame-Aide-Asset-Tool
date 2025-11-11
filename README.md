@@ -33,6 +33,9 @@ There are 5 different function calls that can be used when the FrameAide.cs is a
 
 If you have any issues with the tool or enjoy the tool feel free to share your feedback. Your input will help improve and polish the tool overtime!
 
+Here is a link to Discord if you want to talk further about the tool :)
+https://discord.gg/A8RB4Gx8
+
 
 
 

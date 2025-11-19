@@ -23,7 +23,7 @@ There are 5 different function calls that can be used when the FrameAide.cs is a
 
 `GetCurrentFrame (Animator animator)` - When given a valid animator, it returns the current frame of the animation it's playing
 
-`GetTotalFrames (string animName, int frameIndex)` - Plays an animation at a specific frame
+`PlayTillFrame (string animName, int startIndex, int endIndex)` - Plays an animation at a specific frame then stops at a specific frame
 
 `GetTotalFrames(string animName)` - When given an animation name, it will return the total number of frames that animation has
 
